@@ -7,22 +7,22 @@
 6. Foi criado o relacionamento entre tabelas no model de acordo com Laravel 7
 7. Para os testes com email utilizei minha conta no mailtrap, as configurações foram colocadas no .env
 
-# INSTALAÇÃO DAS DEPENDÊNCIAS
+## INSTALAÇÃO DAS DEPENDÊNCIAS
 1. composer install
 2. npm install
 
-# CONFIGURAÇÕES MÍNIMAS
+## CONFIGURAÇÕES MÍNIMAS
 1. cp .env-example .env
 2. php artisan key:generate
 
-# APÓS CONFIGURAR O BANCO DE DADOS
+## APÓS CONFIGURAR O BANCO DE DADOS
 3. php artisan migration:fresh --seed
 
-# RODAR A APLICAÇÃO
+## RODAR A APLICAÇÃO
 1. npm run dev
 2. php artisan serve
 
-# RODAR OS TESTES
+## RODAR OS TESTES
 1. php artisan test
 
 
