@@ -46,7 +46,7 @@ class ProdutoAtualizado extends Notification
     {
         return (new MailMessage)
             ->subject("Atualização de produto na loja {$this->loja}")
-            ->line("Produto {$this->protudo} atualizado com sucesso");
+            ->line("Produto {$this->produto} atualizado com sucesso");
     }
 
     /**

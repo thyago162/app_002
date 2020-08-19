@@ -9,7 +9,7 @@
         <b-navbar-nav class="ml-2">
           <b-nav-item :to="{name: 'home'}">Pagina Inicial</b-nav-item>
           <b-nav-item :to="{name: 'loja'}">Lojas</b-nav-item>
-          <b-nav-item>Produtos</b-nav-item>
+          <b-nav-item :to="{name: 'produto'}">Produtos</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
