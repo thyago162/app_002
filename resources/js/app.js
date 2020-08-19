@@ -10,6 +10,10 @@ window.Vue = require('vue');
 
 import router from './src/router/router';
 import store from './src/vuex/vuex';
+
+import './src/plugins/bootstrap-vue'
+import './src/plugins/axios'
+
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
